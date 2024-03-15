@@ -5,9 +5,9 @@ const helmet = require('helmet');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const mongoString = process.env.DATABASE_URL;
-const ModelBlog = require('../model/modelBlog')
-const ModelOhWow = require('../model/modelOhWow');
-const ModelVideo = require('../model/modelVideo');
+const ModelBlog = require('./model/modelBlog')
+const ModelOhWow = require('./model/modelOhWow');
+const ModelVideo = require('./model/modelVideo');
 
 
 
